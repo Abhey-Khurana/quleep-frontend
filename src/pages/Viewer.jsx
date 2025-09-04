@@ -76,7 +76,7 @@ export default function Viewer() {
         <div className="flex flex-col justify-center bg-white rounded-2xl shadow-lg p-8">
           <h1 className="text-3xl font-extrabold text-gray-900 mb-4">{product.name}</h1>
           <p className="text-gray-600 mb-2 text-lg">{product.category}</p>
-          <p className="text-indigo-600 font-bold text-2xl mb-4">${product.price}</p>
+          <p className="text-indigo-600 font-bold text-2xl mb-4">₹{product.price}</p>
           <p className="text-gray-700 leading-relaxed">{product.description}</p>
         </div>
       </div>
